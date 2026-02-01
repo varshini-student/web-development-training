@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background-color: azure;
+}
+
+/* header section */
+.header{
+    text-align: center;
+    padding: 20px;
+}
+/* main section */
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.contact-form{
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+}
+.contact-form label{
+    display: block;
+    margin-top: 10px;
+}
+.contact-form input,
+.contact-form textarea{
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+.contact-form button {
+    margin-top: 15px;
+    width: 100%;
+    padding:10px;
+    background-color: black;
+    color: white;
+    border:none;
+    cursor: pointer;
+}
