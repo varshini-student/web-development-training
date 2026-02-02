@@ -1,0 +1,26 @@
+body{
+    font-family: Arial,sans-serif;
+    padding: 20px;
+    background-color: grey;
+}
+.title{
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+.card{
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+@media(max-width:768px){
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+}
