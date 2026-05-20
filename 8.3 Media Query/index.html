@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+
+  <style>
+    /* Default background */
+    body {
+      background-color: aquamarine;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      margin-top: 50px;
+    }
+
+    /* Mobile Devices: 319px — 480px */
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+    }
+
+    /* iPads and Tablets: 481px — 1200px */
+    @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
+
+    /* Laptops: 1201px — 1600px */
+    @media (min-width: 1201px) and (max-width: 1600px) {
+      body {
+        background-color: limegreen;
+      }
+    }
+
+    /* Desktops: 1601px and above */
+    @media (min-width: 1601px) {
+      body {
+        background-color: seagreen;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Media Query Example</h1>
+  <p>Resize the browser window to see background color changes.</p>
+
+</body>
+
+</html>
